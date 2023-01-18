@@ -2,6 +2,18 @@ import java.util.ArrayDeque;
 import java.util.Queue;
 import java.util.TreeMap;
 
+/**
+ * 我们使用三个集合s1，s2，s3保存最小的k个元素、中间的m-2k个元素、最后k个元素，sum2保存s2中所有元素只和，用队列q保存最后m个元素
+ * 将新加的元素放入队列q中，对q的数目进行判断
+ * 1.若q元素小于等于m
+ * 将num插入有序集合s2中，并更新sum2=sum2+num。如果q元素数目为m，只需要将s2最小的k个元素和最大的k个元素移动到s1 s2并更新sum2
+ * 2.若q元素数目等于m+1
+ * 如果num小于s1的最大元素，将num插入s1中，并更新sum2，如果num大于s3的最小元素，将num插入s3中，并将s3中最小元素移动到s2，更新sum2
+ * 3.从队列中取出首元素x，对于带删除元素x
+ * 如果x在s2中，直接删除，如果在s1中，删除后将s2中最小元素移动到s1，如果在s3中，删除后将s2中最大元素移动到s3
+ * <p>
+ * 最后如果队列中的元素数目小于q，直接返回-1，否则返回sum2/(m-2*k)
+ */
 public class LeetCode2023_1_18_1825求出MK平均值 {
     private int m, k;
     private Queue<Integer> q;
