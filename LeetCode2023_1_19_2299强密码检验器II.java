@@ -18,6 +18,7 @@ public class LeetCode2023_1_19_2299强密码检验器II {
         }
         if (hasBig && hasDigital && hasSmall && hasSpecial) return true;
         else return false;
+
 //        String pattern = "/^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\\!@#$%\\^&\\*\\(\\)\\-\\+])(?!.*(.)\\1+).{8,}$/";
 //        return password.matches(pattern);
     }
