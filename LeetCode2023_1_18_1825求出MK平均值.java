@@ -2,7 +2,7 @@ import java.util.ArrayDeque;
 import java.util.Queue;
 import java.util.TreeMap;
 
-public class LeetCode2023_1_18_1825_求出MK平均值 {
+public class LeetCode2023_1_18_1825求出MK平均值 {
     private int m, k;
     private Queue<Integer> q;
     private TreeMap<Integer, Integer> s1;
@@ -11,7 +11,7 @@ public class LeetCode2023_1_18_1825_求出MK平均值 {
     private int size1, size2, size3;
     private long sum2;
 
-    public LeetCode2023_1_18_1825_求出MK平均值(int m, int k) {
+    public LeetCode2023_1_18_1825求出MK平均值(int m, int k) {
         this.m = m;
         this.k = k;
         this.q = new ArrayDeque<Integer>();
