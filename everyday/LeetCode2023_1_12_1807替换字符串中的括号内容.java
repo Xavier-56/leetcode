@@ -1,3 +1,5 @@
+package everyday;
+
 import java.util.*;
 
 public class LeetCode2023_1_12_1807替换字符串中的括号内容 {

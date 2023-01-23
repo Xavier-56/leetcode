@@ -1,3 +1,5 @@
+package everyday;
+
 public class LeetCode2023_1_19_2299强密码检验器II {
     public boolean strongPasswordCheckerII(String password) {
         String special = "!@#$%^&*()-+";

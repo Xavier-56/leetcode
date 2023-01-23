@@ -1,3 +1,5 @@
+package everyday;
+
 public class LeetCode2023_1_15_2293极大极小游戏 {
     public int minMaxGame(int[] nums) {
         int n = nums.length;
