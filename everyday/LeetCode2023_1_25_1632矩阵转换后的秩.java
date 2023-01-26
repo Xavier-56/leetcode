@@ -2,7 +2,7 @@ package everyday;
 
 import java.util.Arrays;
 
-public class LeetCode2023_1_25_1632_矩阵转换后的秩 {
+public class LeetCode2023_1_25_1632矩阵转换后的秩 {
 
     int[] p;
     int[] vals;
