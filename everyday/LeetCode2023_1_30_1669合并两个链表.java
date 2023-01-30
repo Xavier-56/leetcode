@@ -1,13 +1,15 @@
 package everyday;
 
+import publicClass.ListNode;
+
 /**
  * Definition for singly-linked list.
- * public class everyday.ListNode {
+ * public class publicClass.ListNode {
  * int val;
- * everyday.ListNode next;
- * everyday.ListNode() {}
- * everyday.ListNode(int val) { this.val = val; }
- * everyday.ListNode(int val, everyday.ListNode next) { this.val = val; this.next = next; }
+ * publicClass.ListNode next;
+ * publicClass.ListNode() {}
+ * publicClass.ListNode(int val) { this.val = val; }
+ * publicClass.ListNode(int val, publicClass.ListNode next) { this.val = val; this.next = next; }
  * }
  */
 public class LeetCode2023_1_30_1669合并两个链表 {

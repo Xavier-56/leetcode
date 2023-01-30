@@ -1,16 +1,17 @@
 package 算法.模拟;
+import publicClass.ListNode;
 
 /**
  * Definition for singly-linked list.
- * public class everyday.ListNode {
+ * public class publicClass.ListNode {
  *     int val;
- *     everyday.ListNode next;
- *     everyday.ListNode() {}
- *     everyday.ListNode(int val) { this.val = val; }
- *     everyday.ListNode(int val, everyday.ListNode next) { this.val = val; this.next = next; }
+ *     publicClass.ListNode next;
+ *     publicClass.ListNode() {}
+ *     publicClass.ListNode(int val) { this.val = val; }
+ *     publicClass.ListNode(int val, publicClass.ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class Solution {
+class Q2 {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 
     }
