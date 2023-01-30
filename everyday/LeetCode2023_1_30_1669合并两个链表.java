@@ -2,12 +2,12 @@ package everyday;
 
 /**
  * Definition for singly-linked list.
- * public class ListNode {
+ * public class everyday.ListNode {
  * int val;
- * ListNode next;
- * ListNode() {}
- * ListNode(int val) { this.val = val; }
- * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * everyday.ListNode next;
+ * everyday.ListNode() {}
+ * everyday.ListNode(int val) { this.val = val; }
+ * everyday.ListNode(int val, everyday.ListNode next) { this.val = val; this.next = next; }
  * }
  */
 public class LeetCode2023_1_30_1669合并两个链表 {
